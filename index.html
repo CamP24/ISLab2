@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="mystyle.css">
+  <title>Lab 2 </title>
+
+
+</head>
+
+<body>
+<div class ="jumbotron jumbotronHome container-fluid bg-light">
+    <h1>Welcome</h1>
+    <p> Are you ready to begin your shopping experience? If so, please fill out some information below:"</p>
+    </div>
+    <div id="content" class="row clearMargin">
+        <div class="car col-md-4 bg-transparent">
+            <form>
+                User name:<br>
+                <input type="text" name="username"><br>
+                Password:<br>
+                <input type="password" name="psw">
+                <input type="radio" name="gender" value="male" checked>Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="other"> other <br>
+                <input type="checkbox" name="rent" value="Rent"> I want to rent<br>
+                <input type="checkbox" name="own" value="Own"> I want to Own
+                </form>
+                <div class="car col-md-4 bg-transparent">
+                    <form>
+                        <select name="Location">
+                            <option value="NYC">NYC</option>
+                            <option value="London">London</option>
+                            <option value="LA">LA</option>
+                            <option value="Atlanta">Atlanta</option>
+                            <option value="Singapore">Singapore</option>
+                        </select>
+                        <br><br>
+                        <input type="submit">
+                    </form>
+                </div>
+                <div class="car col-md-4 bg-transparent">
+                    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Click me to display Date and time.</button>
+                    <p id="demo"></p>
+                </div>
+
+        </div>
+    </div>
+    
+</div>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
