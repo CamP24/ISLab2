@@ -1,4 +1,12 @@
-body 
-{    background-color: lightblue;}
-h1 {    
-    color: navy;    margin-left: 20px;}
+.background {
+    background-color: aliceblue;
+}
+.container {
+    width: 970px;
+}
+.jumbotronHome {
+    height: 470px;
+    background-image: url("img/vaporwave.jpg");
+}
+.jumbotron {
+    height: 470px;
